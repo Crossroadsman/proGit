@@ -107,3 +107,8 @@ There is nothing special about the name 'master', it is simply the default branc
 ### HEAD ###
 
 This is a pointed to the current branch (or a commit?)
+
+### origin ###
+
+Like master, there is nothig special about the name, it is simply the default name for a remote when running git clone
+
