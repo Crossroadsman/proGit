@@ -31,6 +31,10 @@ add all files recursively: git add -A
 Commit files : git commit
 -------------------------
 
+commit files with inline message: git commit -m "commit message"
+
+commit files using default editor: git commit
+
 
 Get status : git status
 -----------------------
