@@ -73,6 +73,9 @@ git branch -d <branchName>
 Merge changes into the current branch : git merge
 -------------------------------------------------
 
+(from branch to merge changes into)
+git merge <branchWithChangesToBringIn>
+
 
 Get remote data (into .git folder, leave working directory unchanged) : git fetch
 ----------------------------------------------------------------------------------
