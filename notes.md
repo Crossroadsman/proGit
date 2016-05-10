@@ -1,3 +1,6 @@
+Pro Git : Notes
+===============
+
 git add
 -------
 
@@ -88,3 +91,19 @@ git push origin <tagName>
 
 Or you can transfer all tags by adding the --tags flag to the push command.
 
+
+names
+-----
+
+### branch ###
+
+A branch is simply a moveable pointer to a commit. When you create a new branch, all you are doing is creating a new pointer that can be moved around and pointed to commits.
+
+
+### master ###
+
+There is nothing special about the name 'master', it is simply the default branch name in Git.
+
+### HEAD ###
+
+This is a pointed to the current branch (or a commit?)

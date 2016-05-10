@@ -56,6 +56,12 @@ View list of branches : git branch
 git branch
 
 
+See which commits branches point to : git log
+---------------------------------------------
+
+git log --decorate
+
+
 Switch to a different branch : git checkout
 -------------------------------------------
 
@@ -84,9 +90,13 @@ git merge <branchWithChangesToBringIn>
 Get remote data (into .git folder, leave working directory unchanged) : git fetch
 ----------------------------------------------------------------------------------
 
+git fetch <remoteName>
+
 
 Get remote data (into .git folder, update working directory to current remote status) : git pull
 ------------------------------------------------------------------------------------------------
+
+git pull <remoteName>
 
 
 Update remote with local commit : git push
